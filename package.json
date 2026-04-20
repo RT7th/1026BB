@@ -9,11 +9,13 @@
     "forge-std": "github:foundry-rs/forge-std#v1.9.4",
     "hardhat": "^3.0.6",
     "typescript": "~5.8.0",
-    "viem": "^2.37.8"
+    "viem": "^2.46.3"
   },
   "dependencies": {
     "@openzeppelin/contracts": "^5.4.0",
+    "@tanstack/react-query": "^5.90.21",
     "dotenv": "^17.2.2",
-    "openzeppelin": "^1.0.0"
+    "openzeppelin": "^1.0.0",
+    "wagmi": "^3.5.0"
   }
 }

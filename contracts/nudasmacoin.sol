@@ -3,7 +3,7 @@ pragma solidity ^0.8.28;
 import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
 contract ISATU is ERC20 {
-    constructor(uint256 initialSupply) ERC20("ISATU", "ISATU") {
+    constructor(uint256 initialSupply) ERC20("IVANCoin", "INC") {
          _mint(msg.sender, initialSupply);
     } 
 
